@@ -38,7 +38,7 @@ The app can fetch sample documents directly from GitHub. Two samples are include
 - **Webpage on Physical Activity**
 - **Webpage on LLMs**
 
-Select a sample from the dropdown and click "Load Sample" to fetch it.
+Upload a document or select a sample from the dropdown and click "Load Sample" to fetch it.
 
 
 
