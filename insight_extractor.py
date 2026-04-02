@@ -14,8 +14,9 @@ st.set_page_config(page_title="Document Insight Extractor", layout="wide")
 
 # Sample documents from GitHub (verified working URLs)
 SAMPLE_DOCS = {
-    "State of the Union": "https://raw.githubusercontent.com/hwchase17/chroma-langchain/master/state_of_the_union.txt",
     "Paul Graham Essay": "https://raw.githubusercontent.com/gkamradt/langchain-tutorials/main/data/PaulGrahamEssays/startupideas.txt",
+    "Article on Physical Activity": "https://www.who.int/health-topics/physical-activity#tab=tab_1",
+    "Article on LLM": "https://www.ibm.com/think/topics/large-language-models"
 }
 
 
@@ -119,7 +120,7 @@ def display_results(insights, source_caption=None):
 
 # Main UI
 st.title("Document Insight Extractor")
-st.caption("Extract structured insights from documents using AI tools")
+st.caption("Extract insights from documents using AI tools")
 
 st.divider()
 
