@@ -34,8 +34,9 @@ The app will open a local host in your browser.
 
 The app can fetch sample documents directly from GitHub. Two samples are included:
 
-- **Business Memo** - State of the Union text from LangChain repo
 - **Paul Graham Essay** - Startup ideas essay from langchain-tutorials repo
+- **Webpage on Physical Activity**
+- **Webpage on LLMs**
 
 Select a sample from the dropdown and click "Load Sample" to fetch it.
 
